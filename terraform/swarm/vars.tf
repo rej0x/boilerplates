@@ -1,0 +1,9 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRZrZobFUdBhPh4jq1Z0ZLKlt7c+wMvz0G0j6bMP2fMQIYGhFXyM2ab/3oFFXnuO/PbFmIH65RKn2W4Ks70/kywCetaC4lzY6n6WGK6RoSLIqVGVJi3SdAr7LZDnyCtF/mz3nMAPboqkHZGYLG0tWI8DzlXBBniSBsCGCVnWRZbyu36jiT3x6YxO+bXcuJj3PEnsU8A7pa+H9PgiH9wEgypgbmio6L23RRNS2VzJUpEC+VYos/g5wQ0xgHTbibuprAdFPhX1gFESi/aHzDwBE7uh+ndcFYlB8xpGsyCV6b1Hm/rS0/FhOGkvmhTTNTR/4dH//tV3VDSbvDGTPwSOjl15vB9aqmyrwljh4ldcDrRYvm9biN50Zaz5Sw5NiRTTcygGSCHCvbkuZ+xGs9B/YLFTpppUfRMsgnOlNhWTCkvbUSY+41HJUz7OfCjy1/X19X41cnM4akv90urnv0OyFNC6nMyBVwcpmQ8BGvecKITlH792U0BVNNynVT9icNMqBbAwYvFfgZUIYFMD4QXYZBuX2T2biuEipq2jp0ph6oDSRh6D+5uJKD6UuaKVaPw7rmFH4JWJy4XJs5QW3GlhIIQ3Lq7nkmnmOJx6cdK33mVq8VWAVV31+4zKueFTmbcBN2Lwt7ACdJXGXRNKUNk0ODB9F0Qj1n49UL+EqNeLjKMw== rejox@yandex.com"
+}
+variable "proxmox_host" {
+    default = "proxmox"
+}
+variable "template_name" {
+    default = "ubuntu-2004-template"
+}
